@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classm_insert" kind="class" language="PHP" prot="public">
+    <compoundname>mInsert</compoundname>
+    <basecompoundref refid="class_model" prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classm_insert_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/minsert.php" line="9" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minsert.php" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classm_insert_1a42b775b53419b993a959fd431d57640f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dni</definition>
+        <argsstring>($dni)</argsstring>
+        <name>dni</name>
+        <param>
+          <declname>$dni</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>this function return true si el dni del usuario nuevo ya existe en nustra bbdd, por el contrario si no existe retorna false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/minsert.php" line="20" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minsert.php" bodystart="20" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classm_insert_1a500eadfd18dece6c266d182f344f7eca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>email</definition>
+        <argsstring>($email)</argsstring>
+        <name>email</name>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>this function return true si el email del usuario nuevo ya existe en nustra bbdd, por el contrario si no existe retorna false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/minsert.php" line="48" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minsert.php" bodystart="48" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classm_insert_1a2c446e94a63156be3eb42c25bdc9cb5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert</definition>
+        <argsstring>($dni, $nombre, $nusuario, $telefono, $direccion, $poblacion, $email, $password, $rpassword)</argsstring>
+        <name>insert</name>
+        <param>
+          <declname>$dni</declname>
+        </param>
+        <param>
+          <declname>$nombre</declname>
+        </param>
+        <param>
+          <declname>$nusuario</declname>
+        </param>
+        <param>
+          <declname>$telefono</declname>
+        </param>
+        <param>
+          <declname>$direccion</declname>
+        </param>
+        <param>
+          <declname>$poblacion</declname>
+        </param>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <param>
+          <declname>$rpassword</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>this function return true si realiza el registro en nustra bbdd, por el contrario si no se ha podido realizar retorna false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/minsert.php" line="78" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minsert.php" bodystart="78" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="67">
+        <label>mInsert</label>
+        <link refid="classm_insert"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="69">
+        <label>mInsert</label>
+        <link refid="classm_insert"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/models/minsert.php" line="8" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minsert.php" bodystart="7" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_model_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>mInsert</scope><name>$conf</name></member>
+      <member refid="class_model_1a25a8fffc5cc934f9cacb4f0aa27d5512" prot="protected" virt="non-virtual"><scope>mInsert</scope><name>$data_out</name></member>
+      <member refid="class_model_1a1fa3127fc82f96b1436d871ef02be319" prot="protected" virt="non-virtual"><scope>mInsert</scope><name>$db</name></member>
+      <member refid="class_model_1a8586c72f15bcedb0c9654f311323dde8" prot="protected" virt="non-virtual"><scope>mInsert</scope><name>$params_in</name></member>
+      <member refid="classm_insert_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>mInsert</scope><name>__construct</name></member>
+      <member refid="class_model_1a05014738840640fff5d40cc0604cb5c9" prot="public" virt="non-virtual" ambiguityscope="Model::"><scope>mInsert</scope><name>__construct</name></member>
+      <member refid="classm_insert_1a42b775b53419b993a959fd431d57640f" prot="public" virt="non-virtual"><scope>mInsert</scope><name>dni</name></member>
+      <member refid="classm_insert_1a500eadfd18dece6c266d182f344f7eca" prot="public" virt="non-virtual"><scope>mInsert</scope><name>email</name></member>
+      <member refid="classm_insert_1a2c446e94a63156be3eb42c25bdc9cb5a" prot="public" virt="non-virtual"><scope>mInsert</scope><name>insert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

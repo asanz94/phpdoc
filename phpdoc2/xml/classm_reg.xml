@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classm_reg" kind="class" language="PHP" prot="public">
+    <compoundname>mReg</compoundname>
+    <basecompoundref refid="class_model" prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classm_reg_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/mreg.php" line="9" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mreg.php" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="109">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+      <node id="108">
+        <label>mReg</label>
+        <link refid="classm_reg"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="111">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+      <node id="110">
+        <label>mReg</label>
+        <link refid="classm_reg"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/models/mreg.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mreg.php" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_model_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>mReg</scope><name>$conf</name></member>
+      <member refid="class_model_1a25a8fffc5cc934f9cacb4f0aa27d5512" prot="protected" virt="non-virtual"><scope>mReg</scope><name>$data_out</name></member>
+      <member refid="class_model_1a1fa3127fc82f96b1436d871ef02be319" prot="protected" virt="non-virtual"><scope>mReg</scope><name>$db</name></member>
+      <member refid="class_model_1a8586c72f15bcedb0c9654f311323dde8" prot="protected" virt="non-virtual"><scope>mReg</scope><name>$params_in</name></member>
+      <member refid="classm_reg_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>mReg</scope><name>__construct</name></member>
+      <member refid="class_model_1a05014738840640fff5d40cc0604cb5c9" prot="public" virt="non-virtual" ambiguityscope="Model::"><scope>mReg</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

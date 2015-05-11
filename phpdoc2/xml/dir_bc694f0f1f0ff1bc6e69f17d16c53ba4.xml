@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_bc694f0f1f0ff1bc6e69f17d16c53ba4" kind="dir">
+    <compoundname>C:/xampp/htdocs/framework/pub</compoundname>
+    <innerdir refid="dir_3db3f1229f4f8d5685fc2311d6322595">C:/xampp/htdocs/framework/pub/theme</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/pub/"/>
+  </compounddef>
+</doxygen>

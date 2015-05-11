@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_install" kind="class" language="PHP" prot="public">
+    <compoundname>Install</compoundname>
+    <basecompoundref refid="class_controller" prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_install_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/install.php" line="9" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/install.php" bodystart="9" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_install_1a174b8e4c7d4d7363c6f773671defdeff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>home</definition>
+        <argsstring>()</argsstring>
+        <name>home</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/install.php" line="16" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/install.php" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_install_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/install.php" line="19" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/install.php" bodystart="19" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="41">
+        <label>Install</label>
+        <link refid="class_install"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>Controller</label>
+        <link refid="class_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="43">
+        <label>Install</label>
+        <link refid="class_install"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>Controller</label>
+        <link refid="class_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/controllers/install.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/install.php" bodystart="7" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_controller_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>Install</scope><name>$conf</name></member>
+      <member refid="class_controller_1a08fdd91bde255dbe3e2d15a22d9663e8" prot="protected" virt="non-virtual"><scope>Install</scope><name>$model</name></member>
+      <member refid="class_controller_1afe68e6fbe7acfbffc0af0c84a1996466" prot="protected" virt="non-virtual"><scope>Install</scope><name>$params</name></member>
+      <member refid="class_controller_1acccf2eac8663e0cebe8101e90fbab089" prot="protected" virt="non-virtual"><scope>Install</scope><name>$view</name></member>
+      <member refid="class_install_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" virt="non-virtual"><scope>Install</scope><name>__construct</name></member>
+      <member refid="class_controller_1a185653cac2d8a82b6eb5aff50834e49d" prot="public" virt="non-virtual"><scope>Install</scope><name>ajax_set</name></member>
+      <member refid="class_install_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" virt="non-virtual"><scope>Install</scope><name>create</name></member>
+      <member refid="class_install_1a174b8e4c7d4d7363c6f773671defdeff" prot="public" virt="non-virtual"><scope>Install</scope><name>home</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

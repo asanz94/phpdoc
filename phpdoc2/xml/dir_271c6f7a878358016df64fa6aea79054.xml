@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_271c6f7a878358016df64fa6aea79054" kind="dir">
+    <compoundname>C:/xampp/htdocs/framework/app</compoundname>
+    <innerdir refid="dir_7aefce032f41b73447c56dde23708eca">C:/xampp/htdocs/framework/app/controllers</innerdir>
+    <innerdir refid="dir_1f1b2e3515b188e7256713faf7e328b4">C:/xampp/htdocs/framework/app/models</innerdir>
+    <innerdir refid="dir_510adaa9105bf0e122d5fca5f4339824">C:/xampp/htdocs/framework/app/tpl</innerdir>
+    <innerdir refid="dir_83ec9f88235632937a25db492b7d0c28">C:/xampp/htdocs/framework/app/views</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/app/"/>
+  </compounddef>
+</doxygen>

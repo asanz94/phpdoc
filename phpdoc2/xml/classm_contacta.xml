@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classm_contacta" kind="class" language="PHP" prot="public">
+    <compoundname>mContacta</compoundname>
+    <basecompoundref refid="class_model" prot="public" virt="non-virtual">Model</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="51">
+        <label>mContacta</label>
+        <link refid="classm_contacta"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>mContacta</label>
+        <link refid="classm_contacta"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/models/mcontacta.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mcontacta.php" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_model_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>mContacta</scope><name>$conf</name></member>
+      <member refid="class_model_1a25a8fffc5cc934f9cacb4f0aa27d5512" prot="protected" virt="non-virtual"><scope>mContacta</scope><name>$data_out</name></member>
+      <member refid="class_model_1a1fa3127fc82f96b1436d871ef02be319" prot="protected" virt="non-virtual"><scope>mContacta</scope><name>$db</name></member>
+      <member refid="class_model_1a8586c72f15bcedb0c9654f311323dde8" prot="protected" virt="non-virtual"><scope>mContacta</scope><name>$params_in</name></member>
+      <member refid="class_model_1a05014738840640fff5d40cc0604cb5c9" prot="public" virt="non-virtual"><scope>mContacta</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_s_q_l_parser" kind="class" language="PHP" prot="public">
+    <compoundname>SQLParser</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_s_q_l_parser_1acb297d08abcd4ac4fabe1fbe54042e3d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static outComments</definition>
+        <argsstring>($query)</argsstring>
+        <name>outComments</name>
+        <param>
+          <declname>$query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/helper.php" line="79" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="79" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_l_parser_1a6185a1ba348b3b151ba1c9a12f553508" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static parse</definition>
+        <argsstring>($content)</argsstring>
+        <name>parse</name>
+        <param>
+          <declname>$content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/helper.php" line="91" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="91" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/sys/helper.php" line="77" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="77" bodyend="126"/>
+    <listofallmembers>
+      <member refid="class_s_q_l_parser_1acb297d08abcd4ac4fabe1fbe54042e3d" prot="public" virt="non-virtual"><scope>SQLParser</scope><name>outComments</name></member>
+      <member refid="class_s_q_l_parser_1a6185a1ba348b3b151ba1c9a12f553508" prot="public" virt="non-virtual"><scope>SQLParser</scope><name>parse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

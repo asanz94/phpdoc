@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_b444dea3994b16719f47c527967ea7c5" kind="dir">
+    <compoundname>C:/xampp/htdocs/framework/sys</compoundname>
+    <innerfile refid="controller_8php">controller.php</innerfile>
+    <innerfile refid="core_8php">core.php</innerfile>
+    <innerfile refid="db_8php">db.php</innerfile>
+    <innerfile refid="helper_8php">helper.php</innerfile>
+    <innerfile refid="model_8php">model.php</innerfile>
+    <innerfile refid="registry_8php">registry.php</innerfile>
+    <innerfile refid="request_8php">request.php</innerfile>
+    <innerfile refid="session_8php">session.php</innerfile>
+    <innerfile refid="template_8php">template.php</innerfile>
+    <innerfile refid="view_8php">view.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/sys/"/>
+  </compounddef>
+</doxygen>

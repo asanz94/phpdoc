@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="header_8php" kind="file" language="PHP">
+    <compoundname>header.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="header_8php_1a4531cf2592ec46a6bd086b2d2bdd4e72" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$destino</definition>
+        <argsstring></argsstring>
+        <name>$destino</name>
+        <initializer>= &apos;login/login&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/header.php" line="17" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/header.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header_8php_1a59c077a7d423cb872fcf80e9d3d49e36" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$texto_boton</definition>
+        <argsstring></argsstring>
+        <name>$texto_boton</name>
+        <initializer>= &quot;Entrar&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/header.php" line="18" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/header.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="header_8php_1a1004ba6b5e585b3962459b0e60caa830" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>if(isset($_SESSION[&apos;user&apos;]))</definition>
+        <argsstring>(isset($_SESSION[&apos;user&apos;]))</argsstring>
+        <name>if</name>
+        <initializer>= APP_W.$destino</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/header.php" line="19" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/header.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;body&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;header&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;header-tit&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;wrapper&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;&lt;?=<sp/>APP_W;<sp/>?&gt;&quot;</highlight><highlight class="normal">&gt;&lt;img<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;logo&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;Put<sp/>your<sp/>logo&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;&lt;?=<sp/>APP_W<sp/>.<sp/>&apos;pub/theme/k/&apos;<sp/>.<sp/>$logo;<sp/>?&gt;&quot;</highlight><highlight class="normal">/&gt;&lt;/a&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;h1&gt;&lt;?=<sp/>$titol;<sp/>?&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/h1&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;regist&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>&lt;?php<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>$destino<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;login/login&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>$texto_boton<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Entrar&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(isset($_SESSION[</highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal">])){<sp/>$destino<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;salir&apos;</highlight><highlight class="normal">;$texto_boton<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;home/Salir&apos;</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>&lt;form<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;reg&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;formlog&quot;</highlight><highlight class="normal"><sp/>method=</highlight><highlight class="stringliteral">&quot;post&quot;</highlight><highlight class="normal"><sp/>action=</highlight><highlight class="stringliteral">&quot;&lt;?=<sp/>APP_W.$destino;<sp/>?&gt;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>&lt;?php<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">($destino<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;login/login&apos;</highlight><highlight class="normal">){<sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;label<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;nusuario&quot;</highlight><highlight class="normal">&gt;Nombre<sp/>Usuario:<sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;usuario&quot;</highlight><highlight class="normal"><sp/>value=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>placeholder=</highlight><highlight class="stringliteral">&quot;nombre<sp/>de<sp/>usuario&quot;</highlight><highlight class="normal"><sp/>required&gt;&lt;/label&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;label<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal">&gt;Password:<sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal"><sp/>required&gt;&lt;/label&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;bEntra&quot;</highlight><highlight class="normal"><sp/>value=</highlight><highlight class="stringliteral">&quot;&lt;?=<sp/>$texto_boton?&gt;&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;logsend&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>&lt;?php<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{<sp/>?&gt;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/>&lt;!--echo<sp/>$_SESSION[</highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal">];<sp/>?&gt;<sp/>&lt;/p&gt;<sp/>--&gt;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>&lt;?php<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>}<sp/>?&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>&lt;/form&gt;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">&lt;/header&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/xampp/htdocs/framework/app/tpl/header.php"/>
+  </compounddef>
+</doxygen>

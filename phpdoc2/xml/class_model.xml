@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_model" kind="class" language="PHP" prot="public">
+    <compoundname>Model</compoundname>
+    <derivedcompoundref refid="classm_contacta" prot="public" virt="non-virtual">mContacta</derivedcompoundref>
+    <derivedcompoundref refid="classm_eliminar" prot="public" virt="non-virtual">mEliminar</derivedcompoundref>
+    <derivedcompoundref refid="classm_error" prot="public" virt="non-virtual">mError</derivedcompoundref>
+    <derivedcompoundref refid="classm_home" prot="public" virt="non-virtual">mHome</derivedcompoundref>
+    <derivedcompoundref refid="classm_insert" prot="public" virt="non-virtual">mInsert</derivedcompoundref>
+    <derivedcompoundref refid="classm_install" prot="public" virt="non-virtual">mInstall</derivedcompoundref>
+    <derivedcompoundref refid="classm_login" prot="public" virt="non-virtual">mLogin</derivedcompoundref>
+    <derivedcompoundref refid="classm_modificar" prot="public" virt="non-virtual">mModificar</derivedcompoundref>
+    <derivedcompoundref refid="classm_modificarc" prot="public" virt="non-virtual">mModificarc</derivedcompoundref>
+    <derivedcompoundref refid="classm_reg" prot="public" virt="non-virtual">mReg</derivedcompoundref>
+    <derivedcompoundref refid="classm_regeliminar" prot="public" virt="non-virtual">mRegeliminar</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_model_1a1fa3127fc82f96b1436d871ef02be319" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/model.php" line="8" column="1" bodyfile="C:/xampp/htdocs/framework/sys/model.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_1a8586c72f15bcedb0c9654f311323dde8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$params_in</definition>
+        <argsstring></argsstring>
+        <name>$params_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/model.php" line="9" column="1" bodyfile="C:/xampp/htdocs/framework/sys/model.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_1a25a8fffc5cc934f9cacb4f0aa27d5512" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$data_out</definition>
+        <argsstring></argsstring>
+        <name>$data_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/model.php" line="10" column="1" bodyfile="C:/xampp/htdocs/framework/sys/model.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$conf</definition>
+        <argsstring></argsstring>
+        <name>$conf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/model.php" line="11" column="1" bodyfile="C:/xampp/htdocs/framework/sys/model.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_model_1a05014738840640fff5d40cc0604cb5c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params=null)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/model.php" line="13" column="1" bodyfile="C:/xampp/htdocs/framework/sys/model.php" bodystart="13" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="98">
+        <label>mRegeliminar</label>
+        <link refid="classm_regeliminar"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>mLogin</label>
+        <link refid="classm_login"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>mEliminar</label>
+        <link refid="classm_eliminar"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>mModificarc</label>
+        <link refid="classm_modificarc"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>mInstall</label>
+        <link refid="classm_install"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>mError</label>
+        <link refid="classm_error"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>mInsert</label>
+        <link refid="classm_insert"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>mModificar</label>
+        <link refid="classm_modificar"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>mContacta</label>
+        <link refid="classm_contacta"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+      <node id="91">
+        <label>mHome</label>
+        <link refid="classm_home"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>mReg</label>
+        <link refid="classm_reg"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/xampp/htdocs/framework/sys/model.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/sys/model.php" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_model_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>Model</scope><name>$conf</name></member>
+      <member refid="class_model_1a25a8fffc5cc934f9cacb4f0aa27d5512" prot="protected" virt="non-virtual"><scope>Model</scope><name>$data_out</name></member>
+      <member refid="class_model_1a1fa3127fc82f96b1436d871ef02be319" prot="protected" virt="non-virtual"><scope>Model</scope><name>$db</name></member>
+      <member refid="class_model_1a8586c72f15bcedb0c9654f311323dde8" prot="protected" virt="non-virtual"><scope>Model</scope><name>$params_in</name></member>
+      <member refid="class_model_1a05014738840640fff5d40cc0604cb5c9" prot="public" virt="non-virtual"><scope>Model</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

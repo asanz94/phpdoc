@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="tpl_2install_8php" kind="file" language="PHP">
+    <compoundname>install.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;section&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;h1&gt;KFrramwork&lt;/h1&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;h2&gt;App<sp/>installer<sp/>v1.0&lt;/h1&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;h2&gt;<sp/>Setting<sp/><ref refid="class_d_b" kindref="compound">DB</ref>&lt;/h2&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;form<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;instal&quot;</highlight><highlight class="normal"><sp/>method=</highlight><highlight class="stringliteral">&quot;post&quot;</highlight><highlight class="normal"><sp/>action=&lt;?=<sp/>APP_W.</highlight><highlight class="stringliteral">&apos;install/create&apos;</highlight><highlight class="normal"><sp/>;?&gt;&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;label<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;database&quot;</highlight><highlight class="normal">&gt;Database<sp/>name?&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal"><sp/>required<sp/>name=</highlight><highlight class="stringliteral">&quot;dbname&quot;</highlight><highlight class="normal">&gt;&lt;/label&gt;&lt;br&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal"><sp/>value=</highlight><highlight class="stringliteral">&quot;Continue&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;label&gt;&lt;/label&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/form&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>&lt;/section&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/xampp/htdocs/framework/app/tpl/install.php"/>
+  </compounddef>
+</doxygen>

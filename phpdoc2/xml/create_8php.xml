@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="create_8php" kind="file" language="PHP">
+    <compoundname>create.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="create_8php_1a49c7011be9c979d9174c52a8b83e5d8e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config</definition>
+        <argsstring></argsstring>
+        <name>$config</name>
+        <initializer>= Registry::getInstance()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="14" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="create_8php_1a580dd98ba7f04c133d1a1e1b01af4a30" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dbhost</definition>
+        <argsstring></argsstring>
+        <name>$dbhost</name>
+        <initializer>= $conf-&gt;dbhost</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="15" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="create_8php_1a8d5ac1c3396a540f025f9bbe56a5b568" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dbuser</definition>
+        <argsstring></argsstring>
+        <name>$dbuser</name>
+        <initializer>= $conf-&gt;dbuser</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="16" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="create_8php_1a95e283b6dd5867f7b99c160bebf9826c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dbpass</definition>
+        <argsstring></argsstring>
+        <name>$dbpass</name>
+        <initializer>= $conf-&gt;dbpass</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="17" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="create_8php_1aa8a5a87b9c1a6a0819b88447cbe41877" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$conn</definition>
+        <argsstring></argsstring>
+        <name>$conn</name>
+        <initializer>= mysql_connect($dbhost, $dbuser, $dbpass)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="19" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="create_8php_1ae36aed843aacf9bf9bd66651b42cecfb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>if(!$retval)</definition>
+        <argsstring>(!$conn)</argsstring>
+        <name>if</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="20" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="create_8php_1a047170d6020a882807665812a27e2525" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sql</definition>
+        <argsstring></argsstring>
+        <name>$sql</name>
+        <initializer>= &apos;CREATE Database &apos; . $conf-&gt;dbname</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="25" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="create_8php_1ad78265bb473309fdfd2bc017c8cffe81" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$retval</definition>
+        <argsstring></argsstring>
+        <name>$retval</name>
+        <initializer>= mysql_query($sql, $conn)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="26" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="create_8php_1a8f120409eb9f635ac30b3f9a6d5becdc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$command</definition>
+        <argsstring></argsstring>
+        <name>$command</name>
+        <initializer>= &quot;mysql -u &quot; . $dbuser . &quot; -p &quot; . $dbpass . &quot; -h &quot; . $dbhost . &quot; -D &quot; . $dbname . &quot; &lt; app.sql&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="34" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="create_8php_1a73004ce9cd673c1bfafd1dc351134797" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$output</definition>
+        <argsstring></argsstring>
+        <name>$output</name>
+        <initializer>= shell_exec($command . &apos;/shellexec.sql&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/tpl/create.php" line="36" column="1" bodyfile="C:/xampp/htdocs/framework/app/tpl/create.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;section&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;h1&gt;KFrramwork&lt;/h1&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;h2&gt;App<sp/>installer<sp/>v1.0&lt;/h1&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;h2&gt;<sp/>Creating<sp/><ref refid="class_d_b" kindref="compound">DB</ref><sp/>&lt;/h2&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;?php<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;EEE&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">$config<sp/>=<sp/>Registry::getInstance();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">$dbhost<sp/>=<sp/>$conf-&gt;dbhost;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">$dbuser<sp/>=<sp/>$conf-&gt;dbuser;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">$dbpass<sp/>=<sp/>$conf-&gt;dbpass;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">$conn<sp/>=<sp/>mysql_connect($dbhost,<sp/>$dbuser,<sp/>$dbpass);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$conn)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>die(</highlight><highlight class="stringliteral">&apos;Could<sp/>not<sp/>connect:<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/>mysql_error());</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;Connected<sp/>successfully&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">$sql<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;CREATE<sp/>Database<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/>$conf-&gt;dbname;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">$retval<sp/>=<sp/>mysql_query($sql,<sp/>$conn);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$retval)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>die(</highlight><highlight class="stringliteral">&apos;Could<sp/>not<sp/>create<sp/>database:<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/>mysql_error());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;Database<sp/>&quot;</highlight><highlight class="normal"><sp/>.<sp/>$conf-&gt;dbname<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;created<sp/>successfully\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">mysql_select_db($conf-&gt;dbname);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">mysql_close($conn);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">$command<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;mysql<sp/>-u<sp/>&quot;</highlight><highlight class="normal"><sp/>.<sp/>$dbuser<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-p<sp/>&quot;</highlight><highlight class="normal"><sp/>.<sp/>$dbpass<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-h<sp/>&quot;</highlight><highlight class="normal"><sp/>.<sp/>$dbhost<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-D<sp/>&quot;</highlight><highlight class="normal"><sp/>.<sp/>$dbname<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&lt;<sp/>app.sql&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">$output<sp/>=<sp/>shell_exec($command<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/shellexec.sql&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">?&gt;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>&lt;/section&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/xampp/htdocs/framework/app/tpl/create.php"/>
+  </compounddef>
+</doxygen>

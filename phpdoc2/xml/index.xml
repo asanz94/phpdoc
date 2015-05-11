@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.9.1">
+  <compound refid="class_coder" kind="class"><name>Coder</name>
+    <member refid="class_coder_1a4a5e2cad9dc8a17983aa33a2264c7100" kind="function"><name>code</name></member>
+    <member refid="class_coder_1abf0742d2b87e8df7f9408b9baca2c077" kind="function"><name>code_var</name></member>
+  </compound>
+  <compound refid="class_contacta" kind="class"><name>Contacta</name>
+    <member refid="class_contacta_1a05014738840640fff5d40cc0604cb5c9" kind="function"><name>__construct</name></member>
+    <member refid="class_contacta_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+  </compound>
+  <compound refid="class_controller" kind="class"><name>Controller</name>
+    <member refid="class_controller_1a08fdd91bde255dbe3e2d15a22d9663e8" kind="variable"><name>$model</name></member>
+    <member refid="class_controller_1acccf2eac8663e0cebe8101e90fbab089" kind="variable"><name>$view</name></member>
+    <member refid="class_controller_1afe68e6fbe7acfbffc0af0c84a1996466" kind="variable"><name>$params</name></member>
+    <member refid="class_controller_1ae4901046cc3e1deebf77ccc785384a78" kind="variable"><name>$conf</name></member>
+    <member refid="class_controller_1a9162320adff1a1a4afd7f2372f753a3e" kind="function"><name>__construct</name></member>
+    <member refid="class_controller_1a185653cac2d8a82b6eb5aff50834e49d" kind="function"><name>ajax_set</name></member>
+  </compound>
+  <compound refid="class_core" kind="class"><name>Core</name>
+    <member refid="class_core_1a388ef7b1db5e6f728e63cee704ce6e23" kind="variable"><name>$controller</name></member>
+    <member refid="class_core_1aa698a3e72116e8e778be0e95d908ee30" kind="variable"><name>$action</name></member>
+    <member refid="class_core_1afe68e6fbe7acfbffc0af0c84a1996466" kind="variable"><name>$params</name></member>
+    <member refid="class_core_1ae4901046cc3e1deebf77ccc785384a78" kind="variable"><name>$conf</name></member>
+    <member refid="class_core_1a9f0be6ae273d3669e11c29910a0be338" kind="function"><name>init</name></member>
+    <member refid="class_core_1a172c2b8bbed5f8e23ea32e08b665b59b" kind="function"><name>router</name></member>
+  </compound>
+  <compound refid="class_d_b" kind="class"><name>DB</name>
+    <member refid="class_d_b_1ac350be23da328a6f5429313efc9b96e4" kind="variable"><name>$_instance</name></member>
+    <member refid="class_d_b_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_d_b_1af527068985bac6010736b5959643eda7" kind="function"><name>singleton</name></member>
+  </compound>
+  <compound refid="class_eliminar" kind="class"><name>Eliminar</name>
+    <member refid="class_eliminar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_eliminar_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+    <member refid="class_eliminar_1ae05738af445a2eb4f3456604f1b9be8f" kind="function"><name>eliminar</name></member>
+  </compound>
+  <compound refid="class_error" kind="class"><name>Error</name>
+    <member refid="class_error_1a05014738840640fff5d40cc0604cb5c9" kind="function"><name>__construct</name></member>
+    <member refid="class_error_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+  </compound>
+  <compound refid="classhome" kind="class"><name>home</name>
+    <member refid="classhome_1a9162320adff1a1a4afd7f2372f753a3e" kind="function"><name>__construct</name></member>
+    <member refid="classhome_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+    <member refid="classhome_1ae640d82759dd7439b2d6611c41f6478b" kind="function"><name>salir</name></member>
+  </compound>
+  <compound refid="classinsert" kind="class"><name>insert</name>
+    <member refid="classinsert_1a9162320adff1a1a4afd7f2372f753a3e" kind="function"><name>__construct</name></member>
+    <member refid="classinsert_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+    <member refid="classinsert_1a473241246338cfccc4709ba896749019" kind="function"><name>insert</name></member>
+    <member refid="classinsert_1a3a24fd90965ff00604824414c89717c2" kind="function"><name>cargar</name></member>
+  </compound>
+  <compound refid="class_install" kind="class"><name>Install</name>
+    <member refid="class_install_1a9162320adff1a1a4afd7f2372f753a3e" kind="function"><name>__construct</name></member>
+    <member refid="class_install_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+    <member refid="class_install_1a435e7d7525d4bcd0ed5e34a469f3adf6" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="class_k_autoloader" kind="class"><name>KAutoloader</name>
+    <member refid="class_k_autoloader_1a9c03232b28f4306eb55e5ae48d9b5a57" kind="function"><name>SysLoader</name></member>
+    <member refid="class_k_autoloader_1ae9c99c78ae285712998aab4fcc0777bc" kind="function"><name>AppContLoader</name></member>
+    <member refid="class_k_autoloader_1aa1675c8b9b03dc3c377ddfdbfef11b84" kind="function"><name>AppModLoader</name></member>
+    <member refid="class_k_autoloader_1a6a413fe01a5949ed9048dd7f50132488" kind="function"><name>AppVieLoader</name></member>
+  </compound>
+  <compound refid="class_login" kind="class"><name>Login</name>
+    <member refid="class_login_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_login_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+    <member refid="class_login_1aa311da27ba5706f5710cea7706c8eae1" kind="function"><name>login</name></member>
+  </compound>
+  <compound refid="classm_contacta" kind="class"><name>mContacta</name>
+  </compound>
+  <compound refid="classm_eliminar" kind="class"><name>mEliminar</name>
+    <member refid="classm_eliminar_1ab934c86dd926a71481946464ce83c580" kind="function"><name>eliminar</name></member>
+  </compound>
+  <compound refid="classm_error" kind="class"><name>mError</name>
+  </compound>
+  <compound refid="classm_home" kind="class"><name>mHome</name>
+    <member refid="classm_home_1a9162320adff1a1a4afd7f2372f753a3e" kind="function"><name>__construct</name></member>
+    <member refid="classm_home_1aa67567dc404200190a6abcae9262dba0" kind="function"><name>get_out</name></member>
+    <member refid="classm_home_1a2c446e94a63156be3eb42c25bdc9cb5a" kind="function"><name>insert</name></member>
+  </compound>
+  <compound refid="classm_insert" kind="class"><name>mInsert</name>
+    <member refid="classm_insert_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="classm_insert_1a42b775b53419b993a959fd431d57640f" kind="function"><name>dni</name></member>
+    <member refid="classm_insert_1a500eadfd18dece6c266d182f344f7eca" kind="function"><name>email</name></member>
+    <member refid="classm_insert_1a2c446e94a63156be3eb42c25bdc9cb5a" kind="function"><name>insert</name></member>
+  </compound>
+  <compound refid="classm_install" kind="class"><name>mInstall</name>
+    <member refid="classm_install_1ae4901046cc3e1deebf77ccc785384a78" kind="variable"><name>$conf</name></member>
+    <member refid="classm_install_1a9162320adff1a1a4afd7f2372f753a3e" kind="function"><name>__construct</name></member>
+    <member refid="classm_install_1aa67567dc404200190a6abcae9262dba0" kind="function"><name>get_out</name></member>
+    <member refid="classm_install_1a730338378f77a6e490a10938166a6cc1" kind="function"><name>create</name></member>
+    <member refid="classm_install_1aa5e085eb04d3e6db625536f7e02a5d55" kind="function"><name>import</name></member>
+  </compound>
+  <compound refid="classm_login" kind="class"><name>mLogin</name>
+    <member refid="classm_login_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="classm_login_1a3309f05cc3c0ac88c2ba466248d1d507" kind="function"><name>rol</name></member>
+    <member refid="classm_login_1a1db2d12d379fffc4b5ae574167a1a799" kind="function"><name>login</name></member>
+  </compound>
+  <compound refid="classm_modificar" kind="class"><name>mModificar</name>
+    <member refid="classm_modificar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="classm_modificar_1ad8d3d9ee51d5dff334ef054c55bcd80a" kind="function"><name>modificar</name></member>
+  </compound>
+  <compound refid="classm_modificarc" kind="class"><name>mModificarc</name>
+  </compound>
+  <compound refid="class_model" kind="class"><name>Model</name>
+    <member refid="class_model_1a1fa3127fc82f96b1436d871ef02be319" kind="variable"><name>$db</name></member>
+    <member refid="class_model_1a8586c72f15bcedb0c9654f311323dde8" kind="variable"><name>$params_in</name></member>
+    <member refid="class_model_1a25a8fffc5cc934f9cacb4f0aa27d5512" kind="variable"><name>$data_out</name></member>
+    <member refid="class_model_1ae4901046cc3e1deebf77ccc785384a78" kind="variable"><name>$conf</name></member>
+    <member refid="class_model_1a05014738840640fff5d40cc0604cb5c9" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_modificar" kind="class"><name>Modificar</name>
+    <member refid="class_modificar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_modificar_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+  </compound>
+  <compound refid="class_modificarc" kind="class"><name>Modificarc</name>
+    <member refid="class_modificarc_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_modificarc_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+  </compound>
+  <compound refid="classm_reg" kind="class"><name>mReg</name>
+    <member refid="classm_reg_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classm_regeliminar" kind="class"><name>mRegeliminar</name>
+    <member refid="classm_regeliminar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_reg" kind="class"><name>Reg</name>
+    <member refid="class_reg_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_reg_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+  </compound>
+  <compound refid="class_regeliminar" kind="class"><name>Regeliminar</name>
+    <member refid="class_regeliminar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_regeliminar_1a174b8e4c7d4d7363c6f773671defdeff" kind="function"><name>home</name></member>
+  </compound>
+  <compound refid="class_registry" kind="class"><name>Registry</name>
+    <member refid="class_registry_1a6efc15b5a2314dd4b5aaa556a375c6d6" kind="variable"><name>$data</name></member>
+    <member refid="class_registry_1ad9d7ce33ebb142b70e58b68052ca0ea8" kind="variable"><name>$instance</name></member>
+    <member refid="class_registry_1ac93fbec81f07e5d15f80db907e63dc10" kind="function"><name>getInstance</name></member>
+    <member refid="class_registry_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_registry_1aa2c6e0f52eebf99a2bb4b6ba88d7b156" kind="function"><name>__set</name></member>
+    <member refid="class_registry_1a4537dad3b44254124991341cc91b28fb" kind="function"><name>__get</name></member>
+    <member refid="class_registry_1ab8c29e72070f8e32d1a5119fb708e5e3" kind="function"><name>__unset</name></member>
+    <member refid="class_registry_1a81a67162a6288d78fc4c55283325f0b4" kind="function"><name>getData</name></member>
+    <member refid="class_registry_1a4be4055f3361d4800e16bc2e2e38cda6" kind="function"><name>init</name></member>
+  </compound>
+  <compound refid="class_request" kind="class"><name>Request</name>
+    <member refid="class_request_1af59a5f7cd609e592c41dc3643efd3c98" kind="variable"><name>$query</name></member>
+    <member refid="class_request_1ad7c00fdbba951c6f593e1e81f83a9324" kind="function"><name>retrieve</name></member>
+    <member refid="class_request_1a757eb52465094807a57e1604193c3957" kind="function"><name>getCont</name></member>
+    <member refid="class_request_1aa6d9c2b196225e95b4142166b936ef12" kind="function"><name>getAct</name></member>
+    <member refid="class_request_1aff93c1546ca6a0a3a86cb21fab0ce5a5" kind="function"><name>getParam</name></member>
+  </compound>
+  <compound refid="class_session" kind="class"><name>Session</name>
+    <member refid="class_session_1a1fa3127fc82f96b1436d871ef02be319" kind="variable"><name>$db</name></member>
+    <member refid="class_session_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_session_1a630ed254117528083a87c0e30f1e8eab" kind="function"><name>save_session</name></member>
+    <member refid="class_session_1a79b36d71c6f1d4f9e6c4c3e34c081456" kind="function"><name>__set</name></member>
+    <member refid="class_session_1a4537dad3b44254124991341cc91b28fb" kind="function"><name>__get</name></member>
+    <member refid="class_session_1a9f0be6ae273d3669e11c29910a0be338" kind="function"><name>init</name></member>
+    <member refid="class_session_1a606e29124233412b3db261bb6078d4a0" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="class_s_q_l_parser" kind="class"><name>SQLParser</name>
+    <member refid="class_s_q_l_parser_1acb297d08abcd4ac4fabe1fbe54042e3d" kind="function"><name>outComments</name></member>
+    <member refid="class_s_q_l_parser_1a6185a1ba348b3b151ba1c9a12f553508" kind="function"><name>parse</name></member>
+  </compound>
+  <compound refid="class_template" kind="class"><name>Template</name>
+    <member refid="class_template_1a58fdd5b502414a7db42dddfb3e0a1a6f" kind="function"><name>load</name></member>
+  </compound>
+  <compound refid="classv_contacta" kind="class"><name>vContacta</name>
+    <member refid="classv_contacta_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_create" kind="class"><name>vCreate</name>
+    <member refid="classv_create_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_eliminar" kind="class"><name>vEliminar</name>
+    <member refid="classv_eliminar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_error" kind="class"><name>vError</name>
+    <member refid="classv_error_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_errorcrear" kind="class"><name>vErrorcrear</name>
+    <member refid="classv_errorcrear_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_erroreliminar" kind="class"><name>vErroreliminar</name>
+    <member refid="classv_erroreliminar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_errorlogin" kind="class"><name>vErrorlogin</name>
+    <member refid="classv_errorlogin_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_errormodificar" kind="class"><name>vErrormodificar</name>
+    <member refid="classv_errormodificar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_home" kind="class"><name>vHome</name>
+    <member refid="classv_home_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_view" kind="class"><name>View</name>
+    <member refid="class_view_1ab17fbe2ab68dbf274177a2b974b4eb23" kind="variable"><name>$reg</name></member>
+    <member refid="class_view_1a0566cdd65c004851d2ba7fb0b0fc19f6" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_insert" kind="class"><name>vInsert</name>
+    <member refid="classv_insert_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_install" kind="class"><name>vInstall</name>
+    <member refid="classv_install_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classvlogin" kind="class"><name>vlogin</name>
+    <member refid="classvlogin_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_modificar" kind="class"><name>vModificar</name>
+    <member refid="classv_modificar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_modificarc" kind="class"><name>vModificarc</name>
+    <member refid="classv_modificarc_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_reg" kind="class"><name>vReg</name>
+    <member refid="classv_reg_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="classv_regeliminar" kind="class"><name>vRegeliminar</name>
+    <member refid="classv_regeliminar_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="controllers_2contacta_8php" kind="file"><name>contacta.php</name>
+  </compound>
+  <compound refid="tpl_2contacta_8php" kind="file"><name>contacta.php</name>
+  </compound>
+  <compound refid="controllers_2eliminar_8php" kind="file"><name>eliminar.php</name>
+  </compound>
+  <compound refid="tpl_2eliminar_8php" kind="file"><name>eliminar.php</name>
+  </compound>
+  <compound refid="controllers_2error_8php" kind="file"><name>error.php</name>
+  </compound>
+  <compound refid="tpl_2error_8php" kind="file"><name>error.php</name>
+  </compound>
+  <compound refid="controllers_2home_8php" kind="file"><name>home.php</name>
+  </compound>
+  <compound refid="tpl_2home_8php" kind="file"><name>home.php</name>
+  </compound>
+  <compound refid="controllers_2insert_8php" kind="file"><name>insert.php</name>
+  </compound>
+  <compound refid="tpl_2insert_8php" kind="file"><name>insert.php</name>
+  </compound>
+  <compound refid="controllers_2install_8php" kind="file"><name>install.php</name>
+  </compound>
+  <compound refid="tpl_2install_8php" kind="file"><name>install.php</name>
+  </compound>
+  <compound refid="login_8php" kind="file"><name>login.php</name>
+  </compound>
+  <compound refid="controllers_2modificar_8php" kind="file"><name>modificar.php</name>
+  </compound>
+  <compound refid="tpl_2modificar_8php" kind="file"><name>modificar.php</name>
+  </compound>
+  <compound refid="controllers_2modificarc_8php" kind="file"><name>modificarc.php</name>
+  </compound>
+  <compound refid="tpl_2modificarc_8php" kind="file"><name>modificarc.php</name>
+  </compound>
+  <compound refid="controllers_2reg_8php" kind="file"><name>reg.php</name>
+  </compound>
+  <compound refid="tpl_2reg_8php" kind="file"><name>reg.php</name>
+  </compound>
+  <compound refid="controllers_2regeliminar_8php" kind="file"><name>regeliminar.php</name>
+  </compound>
+  <compound refid="tpl_2regeliminar_8php" kind="file"><name>regeliminar.php</name>
+  </compound>
+  <compound refid="mcontacta_8php" kind="file"><name>mcontacta.php</name>
+  </compound>
+  <compound refid="meliminar_8php" kind="file"><name>meliminar.php</name>
+  </compound>
+  <compound refid="merror_8php" kind="file"><name>merror.php</name>
+  </compound>
+  <compound refid="mhome_8php" kind="file"><name>mhome.php</name>
+  </compound>
+  <compound refid="minsert_8php" kind="file"><name>minsert.php</name>
+  </compound>
+  <compound refid="minstall_8php" kind="file"><name>minstall.php</name>
+  </compound>
+  <compound refid="mlogin_8php" kind="file"><name>mlogin.php</name>
+  </compound>
+  <compound refid="mmodificar_8php" kind="file"><name>mmodificar.php</name>
+  </compound>
+  <compound refid="mmodificarc_8php" kind="file"><name>mmodificarc.php</name>
+  </compound>
+  <compound refid="mreg_8php" kind="file"><name>mreg.php</name>
+  </compound>
+  <compound refid="mregeliminar_8php" kind="file"><name>mregeliminar.php</name>
+  </compound>
+  <compound refid="rellenar_8php" kind="file"><name>rellenar.php</name>
+    <member refid="rellenar_8php_1a047170d6020a882807665812a27e2525" kind="variable"><name>$sql</name></member>
+    <member refid="rellenar_8php_1af27a9140d5f2658693e7fd107f716449" kind="variable"><name>$stmt</name></member>
+    <member refid="rellenar_8php_1ace2ec39e7df3899fa8df9640ec274b03" kind="variable"><name>$rows</name></member>
+  </compound>
+  <compound refid="create_8php" kind="file"><name>create.php</name>
+    <member refid="create_8php_1a49c7011be9c979d9174c52a8b83e5d8e" kind="variable"><name>$config</name></member>
+    <member refid="create_8php_1a580dd98ba7f04c133d1a1e1b01af4a30" kind="variable"><name>$dbhost</name></member>
+    <member refid="create_8php_1a8d5ac1c3396a540f025f9bbe56a5b568" kind="variable"><name>$dbuser</name></member>
+    <member refid="create_8php_1a95e283b6dd5867f7b99c160bebf9826c" kind="variable"><name>$dbpass</name></member>
+    <member refid="create_8php_1aa8a5a87b9c1a6a0819b88447cbe41877" kind="variable"><name>$conn</name></member>
+    <member refid="create_8php_1ae36aed843aacf9bf9bd66651b42cecfb" kind="variable"><name>if</name></member>
+    <member refid="create_8php_1a047170d6020a882807665812a27e2525" kind="variable"><name>$sql</name></member>
+    <member refid="create_8php_1ad78265bb473309fdfd2bc017c8cffe81" kind="variable"><name>$retval</name></member>
+    <member refid="create_8php_1a8f120409eb9f635ac30b3f9a6d5becdc" kind="variable"><name>$command</name></member>
+    <member refid="create_8php_1a73004ce9cd673c1bfafd1dc351134797" kind="variable"><name>$output</name></member>
+  </compound>
+  <compound refid="footer_8php" kind="file"><name>footer.php</name>
+  </compound>
+  <compound refid="head_8php" kind="file"><name>head.php</name>
+  </compound>
+  <compound refid="header_8php" kind="file"><name>header.php</name>
+    <member refid="header_8php_1a4531cf2592ec46a6bd086b2d2bdd4e72" kind="variable"><name>$destino</name></member>
+    <member refid="header_8php_1a59c077a7d423cb872fcf80e9d3d49e36" kind="variable"><name>$texto_boton</name></member>
+    <member refid="header_8php_1a1004ba6b5e585b3962459b0e60caa830" kind="variable"><name>if</name></member>
+  </compound>
+  <compound refid="login2_8php" kind="file"><name>login2.php</name>
+    <member refid="login2_8php_1a7eb75b047c2417070b4fa80838ed61be" kind="variable"><name>else</name></member>
+  </compound>
+  <compound refid="menu_8php" kind="file"><name>menu.php</name>
+  </compound>
+  <compound refid="vcontacta_8php" kind="file"><name>vcontacta.php</name>
+  </compound>
+  <compound refid="vcreate_8php" kind="file"><name>vcreate.php</name>
+  </compound>
+  <compound refid="veliminar_8php" kind="file"><name>veliminar.php</name>
+  </compound>
+  <compound refid="verror_8php" kind="file"><name>verror.php</name>
+  </compound>
+  <compound refid="verrorcrear_8php" kind="file"><name>verrorcrear.php</name>
+  </compound>
+  <compound refid="verroreliminar_8php" kind="file"><name>verroreliminar.php</name>
+  </compound>
+  <compound refid="verrorlogin_8php" kind="file"><name>verrorlogin.php</name>
+  </compound>
+  <compound refid="verrormodificar_8php" kind="file"><name>verrormodificar.php</name>
+  </compound>
+  <compound refid="vhome_8php" kind="file"><name>vhome.php</name>
+  </compound>
+  <compound refid="vinsert_8php" kind="file"><name>vinsert.php</name>
+  </compound>
+  <compound refid="vinstall_8php" kind="file"><name>vinstall.php</name>
+  </compound>
+  <compound refid="vlogin_8php" kind="file"><name>vlogin.php</name>
+  </compound>
+  <compound refid="vmodificar_8php" kind="file"><name>vmodificar.php</name>
+  </compound>
+  <compound refid="vmodificarc_8php" kind="file"><name>vmodificarc.php</name>
+  </compound>
+  <compound refid="vreg_8php" kind="file"><name>vreg.php</name>
+  </compound>
+  <compound refid="vregeliminar_8php" kind="file"><name>vregeliminar.php</name>
+  </compound>
+  <compound refid="constants_8php" kind="file"><name>constants.php</name>
+    <member refid="constants_8php_1ae073998f73900b8375397889044c8313" kind="variable"><name>DS</name></member>
+    <member refid="constants_8php_1a18c0644836e196aed6d63779e14d6bd8" kind="variable"><name>ROOT</name></member>
+    <member refid="constants_8php_1a0209851fb6790e1be57a9edf2107c091" kind="variable"><name>APP</name></member>
+    <member refid="constants_8php_1aba44f7d2f4078b9cb6bb51dcc121f414" kind="variable"><name>$app_w</name></member>
+    <member refid="constants_8php_1a1c000d3159a0f3eefd9732412d15a402" kind="variable"><name>APP_W</name></member>
+    <member refid="constants_8php_1a09763541667d8e51df70865805cc29ee" kind="function"><name>base</name></member>
+  </compound>
+  <compound refid="index_8php" kind="file"><name>index.php</name>
+    <member refid="index_8php_1a78db1a0602e3b6ac1d9a1b5ec103c160" kind="variable"><name>$time</name></member>
+    <member refid="index_8php_1ae4901046cc3e1deebf77ccc785384a78" kind="variable"><name>$conf</name></member>
+    <member refid="index_8php_1a13b3f51c9acf13beca6678d5e64b1f45" kind="variable"><name>time</name></member>
+  </compound>
+  <compound refid="application_8js" kind="file"><name>application.js</name>
+  </compound>
+  <compound refid="controller_8php" kind="file"><name>controller.php</name>
+  </compound>
+  <compound refid="core_8php" kind="file"><name>core.php</name>
+  </compound>
+  <compound refid="db_8php" kind="file"><name>db.php</name>
+  </compound>
+  <compound refid="helper_8php" kind="file"><name>helper.php</name>
+    <member refid="helper_8php_1a354c647c8b03a868afa9103dea1209ec" kind="function"><name>is_base</name></member>
+  </compound>
+  <compound refid="model_8php" kind="file"><name>model.php</name>
+  </compound>
+  <compound refid="registry_8php" kind="file"><name>registry.php</name>
+  </compound>
+  <compound refid="request_8php" kind="file"><name>request.php</name>
+  </compound>
+  <compound refid="session_8php" kind="file"><name>session.php</name>
+  </compound>
+  <compound refid="template_8php" kind="file"><name>template.php</name>
+  </compound>
+  <compound refid="view_8php" kind="file"><name>view.php</name>
+  </compound>
+  <compound refid="dir_271c6f7a878358016df64fa6aea79054" kind="dir"><name>C:/xampp/htdocs/framework/app</name>
+  </compound>
+  <compound refid="dir_7aefce032f41b73447c56dde23708eca" kind="dir"><name>C:/xampp/htdocs/framework/app/controllers</name>
+  </compound>
+  <compound refid="dir_33500b6c911153749f641ea7c99b21f3" kind="dir"><name>C:/xampp/htdocs/framework</name>
+  </compound>
+  <compound refid="dir_10a6f60a3f69272b5db7ea1b7bf5dbe7" kind="dir"><name>C:/xampp/htdocs</name>
+  </compound>
+  <compound refid="dir_450a64932da442b83629138e12e1d1aa" kind="dir"><name>C:/xampp/htdocs/framework/pub/theme/k/js</name>
+  </compound>
+  <compound refid="dir_0d3a080a1b17e8066dd59b826235a82a" kind="dir"><name>C:/xampp/htdocs/framework/pub/theme/k</name>
+  </compound>
+  <compound refid="dir_1f1b2e3515b188e7256713faf7e328b4" kind="dir"><name>C:/xampp/htdocs/framework/app/models</name>
+  </compound>
+  <compound refid="dir_bc694f0f1f0ff1bc6e69f17d16c53ba4" kind="dir"><name>C:/xampp/htdocs/framework/pub</name>
+  </compound>
+  <compound refid="dir_b444dea3994b16719f47c527967ea7c5" kind="dir"><name>C:/xampp/htdocs/framework/sys</name>
+  </compound>
+  <compound refid="dir_3db3f1229f4f8d5685fc2311d6322595" kind="dir"><name>C:/xampp/htdocs/framework/pub/theme</name>
+  </compound>
+  <compound refid="dir_510adaa9105bf0e122d5fca5f4339824" kind="dir"><name>C:/xampp/htdocs/framework/app/tpl</name>
+  </compound>
+  <compound refid="dir_83ec9f88235632937a25db492b7d0c28" kind="dir"><name>C:/xampp/htdocs/framework/app/views</name>
+  </compound>
+  <compound refid="dir_516e7709f2195dc55b84d083c8c936b3" kind="dir"><name>C:/xampp</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_registry" kind="class" language="PHP" prot="public">
+    <compoundname>Registry</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_registry_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$data</definition>
+        <argsstring></argsstring>
+        <name>$data</name>
+        <initializer>=array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/registry.php" line="16" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_registry_1ad9d7ce33ebb142b70e58b68052ca0ea8" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$instance</definition>
+        <argsstring></argsstring>
+        <name>$instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/registry.php" line="18" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_registry_1ac93fbec81f07e5d15f80db907e63dc10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/registry.php" line="21" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="21" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_registry_1a095c5d389db211932136b53f25f39685" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/registry.php" line="31" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_registry_1aa2c6e0f52eebf99a2bb4b6ba88d7b156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__set</definition>
+        <argsstring>($key, $var)</argsstring>
+        <name>__set</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/registry.php" line="35" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_registry_1a4537dad3b44254124991341cc91b28fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__get</definition>
+        <argsstring>($key)</argsstring>
+        <name>__get</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/registry.php" line="40" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_registry_1ab8c29e72070f8e32d1a5119fb708e5e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__unset</definition>
+        <argsstring>($data)</argsstring>
+        <name>__unset</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/registry.php" line="47" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_registry_1a81a67162a6288d78fc4c55283325f0b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getData</definition>
+        <argsstring>()</argsstring>
+        <name>getData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/registry.php" line="50" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_registry_1a4be4055f3361d4800e16bc2e2e38cda6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function initializes and load config information app, located in Config.json </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/registry.php" line="57" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="57" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 Description of <ref refid="class_registry" kindref="compound">Registry</ref> <ref refid="class_registry" kindref="compound">Registry</ref> de les configuracions </para></simplesect>
+<simplesect kind="author"><para>toni </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/sys/registry.php" line="15" column="1" bodyfile="C:/xampp/htdocs/framework/sys/registry.php" bodystart="15" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_registry_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="private" virt="non-virtual"><scope>Registry</scope><name>$data</name></member>
+      <member refid="class_registry_1ad9d7ce33ebb142b70e58b68052ca0ea8" prot="public" virt="non-virtual"><scope>Registry</scope><name>$instance</name></member>
+      <member refid="class_registry_1a095c5d389db211932136b53f25f39685" prot="private" virt="non-virtual"><scope>Registry</scope><name>__construct</name></member>
+      <member refid="class_registry_1a4537dad3b44254124991341cc91b28fb" prot="public" virt="non-virtual"><scope>Registry</scope><name>__get</name></member>
+      <member refid="class_registry_1aa2c6e0f52eebf99a2bb4b6ba88d7b156" prot="public" virt="non-virtual"><scope>Registry</scope><name>__set</name></member>
+      <member refid="class_registry_1ab8c29e72070f8e32d1a5119fb708e5e3" prot="public" virt="non-virtual"><scope>Registry</scope><name>__unset</name></member>
+      <member refid="class_registry_1a81a67162a6288d78fc4c55283325f0b4" prot="public" virt="non-virtual"><scope>Registry</scope><name>getData</name></member>
+      <member refid="class_registry_1ac93fbec81f07e5d15f80db907e63dc10" prot="public" virt="non-virtual"><scope>Registry</scope><name>getInstance</name></member>
+      <member refid="class_registry_1a4be4055f3361d4800e16bc2e2e38cda6" prot="public" virt="non-virtual"><scope>Registry</scope><name>init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

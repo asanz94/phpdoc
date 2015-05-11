@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classm_install" kind="class" language="PHP" prot="public">
+    <compoundname>mInstall</compoundname>
+    <basecompoundref refid="class_model" prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classm_install_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$conf</definition>
+        <argsstring></argsstring>
+        <name>$conf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/minstall.php" line="8" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minstall.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classm_install_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/minstall.php" line="10" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minstall.php" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classm_install_1aa67567dc404200190a6abcae9262dba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_out</definition>
+        <argsstring>()</argsstring>
+        <name>get_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/minstall.php" line="17" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minstall.php" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classm_install_1a730338378f77a6e490a10938166a6cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>($dbname)</argsstring>
+        <name>create</name>
+        <param>
+          <declname>$dbname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/minstall.php" line="20" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minstall.php" bodystart="20" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classm_install_1aa5e085eb04d3e6db625536f7e02a5d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>import</definition>
+        <argsstring>($mysqlHostName, $mysqlUserName, $mysqlPassword, $mysqlDatabaseName, $mysqlImportFilename)</argsstring>
+        <name>import</name>
+        <param>
+          <declname>$mysqlHostName</declname>
+        </param>
+        <param>
+          <declname>$mysqlUserName</declname>
+        </param>
+        <param>
+          <declname>$mysqlPassword</declname>
+        </param>
+        <param>
+          <declname>$mysqlDatabaseName</declname>
+        </param>
+        <param>
+          <declname>$mysqlImportFilename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/minstall.php" line="72" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minstall.php" bodystart="72" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="71">
+        <label>mInstall</label>
+        <link refid="classm_install"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="73">
+        <label>mInstall</label>
+        <link refid="classm_install"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/models/minstall.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/minstall.php" bodystart="7" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classm_install_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>mInstall</scope><name>$conf</name></member>
+      <member refid="class_model_1a25a8fffc5cc934f9cacb4f0aa27d5512" prot="protected" virt="non-virtual"><scope>mInstall</scope><name>$data_out</name></member>
+      <member refid="class_model_1a1fa3127fc82f96b1436d871ef02be319" prot="protected" virt="non-virtual"><scope>mInstall</scope><name>$db</name></member>
+      <member refid="class_model_1a8586c72f15bcedb0c9654f311323dde8" prot="protected" virt="non-virtual"><scope>mInstall</scope><name>$params_in</name></member>
+      <member refid="classm_install_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" virt="non-virtual"><scope>mInstall</scope><name>__construct</name></member>
+      <member refid="classm_install_1a730338378f77a6e490a10938166a6cc1" prot="public" virt="non-virtual"><scope>mInstall</scope><name>create</name></member>
+      <member refid="classm_install_1aa67567dc404200190a6abcae9262dba0" prot="public" virt="non-virtual"><scope>mInstall</scope><name>get_out</name></member>
+      <member refid="classm_install_1aa5e085eb04d3e6db625536f7e02a5d55" prot="public" virt="non-virtual"><scope>mInstall</scope><name>import</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

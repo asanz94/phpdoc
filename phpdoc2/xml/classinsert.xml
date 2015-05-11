@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classinsert" kind="class" language="PHP" prot="public">
+    <compoundname>insert</compoundname>
+    <basecompoundref refid="class_controller" prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classinsert_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/insert.php" line="11" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/insert.php" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classinsert_1a174b8e4c7d4d7363c6f773671defdeff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>home</definition>
+        <argsstring>()</argsstring>
+        <name>home</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/insert.php" line="29" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/insert.php" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classinsert_1a473241246338cfccc4709ba896749019" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert</definition>
+        <argsstring>()</argsstring>
+        <name>insert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>esta funcion llama al metodo insert el cual si nos retorna true redirigimos a la pagina home o por el contrario a la pagina de error </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/insert.php" line="42" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/insert.php" bodystart="42" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classinsert_1a3a24fd90965ff00604824414c89717c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cargar</definition>
+        <argsstring>()</argsstring>
+        <name>cargar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/insert.php" line="67" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/insert.php" bodystart="67" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>insert</label>
+        <link refid="classinsert"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>Controller</label>
+        <link refid="class_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>insert</label>
+        <link refid="classinsert"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Controller</label>
+        <link refid="class_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/controllers/insert.php" line="8" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/insert.php" bodystart="8" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_controller_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>insert</scope><name>$conf</name></member>
+      <member refid="class_controller_1a08fdd91bde255dbe3e2d15a22d9663e8" prot="protected" virt="non-virtual"><scope>insert</scope><name>$model</name></member>
+      <member refid="class_controller_1afe68e6fbe7acfbffc0af0c84a1996466" prot="protected" virt="non-virtual"><scope>insert</scope><name>$params</name></member>
+      <member refid="class_controller_1acccf2eac8663e0cebe8101e90fbab089" prot="protected" virt="non-virtual"><scope>insert</scope><name>$view</name></member>
+      <member refid="classinsert_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" virt="non-virtual"><scope>insert</scope><name>__construct</name></member>
+      <member refid="class_controller_1a185653cac2d8a82b6eb5aff50834e49d" prot="public" virt="non-virtual"><scope>insert</scope><name>ajax_set</name></member>
+      <member refid="classinsert_1a3a24fd90965ff00604824414c89717c2" prot="public" virt="non-virtual"><scope>insert</scope><name>cargar</name></member>
+      <member refid="classinsert_1a174b8e4c7d4d7363c6f773671defdeff" prot="public" virt="non-virtual"><scope>insert</scope><name>home</name></member>
+      <member refid="classinsert_1a473241246338cfccc4709ba896749019" prot="public" virt="non-virtual"><scope>insert</scope><name>insert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classm_login" kind="class" language="PHP" prot="public">
+    <compoundname>mLogin</compoundname>
+    <basecompoundref refid="class_model" prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classm_login_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/mlogin.php" line="10" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mlogin.php" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classm_login_1a3309f05cc3c0ac88c2ba466248d1d507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rol</definition>
+        <argsstring>($nusuario)</argsstring>
+        <name>rol</name>
+        <param>
+          <declname>$nusuario</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>this function return true si el rol del usuario existe, por el contrario si no existe retorna false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/mlogin.php" line="20" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mlogin.php" bodystart="20" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classm_login_1a1db2d12d379fffc4b5ae574167a1a799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>login</definition>
+        <argsstring>($nusuario, $password)</argsstring>
+        <name>login</name>
+        <param>
+          <declname>$nusuario</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>this function return true si el usuario existe, por el contrario si no existe retorna false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/mlogin.php" line="55" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mlogin.php" bodystart="55" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="75">
+        <label>mLogin</label>
+        <link refid="classm_login"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="77">
+        <label>mLogin</label>
+        <link refid="classm_login"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/models/mlogin.php" line="8" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mlogin.php" bodystart="8" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_model_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>mLogin</scope><name>$conf</name></member>
+      <member refid="class_model_1a25a8fffc5cc934f9cacb4f0aa27d5512" prot="protected" virt="non-virtual"><scope>mLogin</scope><name>$data_out</name></member>
+      <member refid="class_model_1a1fa3127fc82f96b1436d871ef02be319" prot="protected" virt="non-virtual"><scope>mLogin</scope><name>$db</name></member>
+      <member refid="class_model_1a8586c72f15bcedb0c9654f311323dde8" prot="protected" virt="non-virtual"><scope>mLogin</scope><name>$params_in</name></member>
+      <member refid="classm_login_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>mLogin</scope><name>__construct</name></member>
+      <member refid="class_model_1a05014738840640fff5d40cc0604cb5c9" prot="public" virt="non-virtual" ambiguityscope="Model::"><scope>mLogin</scope><name>__construct</name></member>
+      <member refid="classm_login_1a1db2d12d379fffc4b5ae574167a1a799" prot="public" virt="non-virtual"><scope>mLogin</scope><name>login</name></member>
+      <member refid="classm_login_1a3309f05cc3c0ac88c2ba466248d1d507" prot="public" virt="non-virtual"><scope>mLogin</scope><name>rol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classm_modificar" kind="class" language="PHP" prot="public">
+    <compoundname>mModificar</compoundname>
+    <basecompoundref refid="class_model" prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classm_modificar_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/mmodificar.php" line="10" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mmodificar.php" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classm_modificar_1ad8d3d9ee51d5dff334ef054c55bcd80a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>modificar</definition>
+        <argsstring>($nombre, $nusuario, $telefono, $direccion, $poblacion, $email, $password, $rpassword)</argsstring>
+        <name>modificar</name>
+        <param>
+          <declname>$nombre</declname>
+        </param>
+        <param>
+          <declname>$nusuario</declname>
+        </param>
+        <param>
+          <declname>$telefono</declname>
+        </param>
+        <param>
+          <declname>$direccion</declname>
+        </param>
+        <param>
+          <declname>$poblacion</declname>
+        </param>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <param>
+          <declname>$rpassword</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>this function return true si la sentencia se ha ejecutado correctamente , por el contrario si no existe retorna false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/models/mmodificar.php" line="22" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mmodificar.php" bodystart="22" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="79">
+        <label>mModificar</label>
+        <link refid="classm_modificar"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="81">
+        <label>mModificar</label>
+        <link refid="classm_modificar"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>Model</label>
+        <link refid="class_model"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/models/mmodificar.php" line="8" column="1" bodyfile="C:/xampp/htdocs/framework/app/models/mmodificar.php" bodystart="8" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_model_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>mModificar</scope><name>$conf</name></member>
+      <member refid="class_model_1a25a8fffc5cc934f9cacb4f0aa27d5512" prot="protected" virt="non-virtual"><scope>mModificar</scope><name>$data_out</name></member>
+      <member refid="class_model_1a1fa3127fc82f96b1436d871ef02be319" prot="protected" virt="non-virtual"><scope>mModificar</scope><name>$db</name></member>
+      <member refid="class_model_1a8586c72f15bcedb0c9654f311323dde8" prot="protected" virt="non-virtual"><scope>mModificar</scope><name>$params_in</name></member>
+      <member refid="classm_modificar_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>mModificar</scope><name>__construct</name></member>
+      <member refid="class_model_1a05014738840640fff5d40cc0604cb5c9" prot="public" virt="non-virtual" ambiguityscope="Model::"><scope>mModificar</scope><name>__construct</name></member>
+      <member refid="classm_modificar_1ad8d3d9ee51d5dff334ef054c55bcd80a" prot="public" virt="non-virtual"><scope>mModificar</scope><name>modificar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

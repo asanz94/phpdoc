@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_coder" kind="class" language="PHP" prot="public">
+    <compoundname>Coder</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_coder_1a4a5e2cad9dc8a17983aa33a2264c7100" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static code</definition>
+        <argsstring>($var)</argsstring>
+        <name>code</name>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/helper.php" line="70" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_coder_1abf0742d2b87e8df7f9408b9baca2c077" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static code_var</definition>
+        <argsstring>($var)</argsstring>
+        <name>code_var</name>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/helper.php" line="73" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="73" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/sys/helper.php" line="69" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="69" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_coder_1a4a5e2cad9dc8a17983aa33a2264c7100" prot="public" virt="non-virtual"><scope>Coder</scope><name>code</name></member>
+      <member refid="class_coder_1abf0742d2b87e8df7f9408b9baca2c077" prot="public" virt="non-virtual"><scope>Coder</scope><name>code_var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

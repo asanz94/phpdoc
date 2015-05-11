@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_core" kind="class" language="PHP" prot="public">
+    <compoundname>Core</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_core_1a388ef7b1db5e6f728e63cee704ce6e23" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$controller</definition>
+        <argsstring></argsstring>
+        <name>$controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/core.php" line="9" column="1" bodyfile="C:/xampp/htdocs/framework/sys/core.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1aa698a3e72116e8e778be0e95d908ee30" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$action</definition>
+        <argsstring></argsstring>
+        <name>$action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/core.php" line="10" column="1" bodyfile="C:/xampp/htdocs/framework/sys/core.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1afe68e6fbe7acfbffc0af0c84a1996466" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$params</definition>
+        <argsstring></argsstring>
+        <name>$params</name>
+        <initializer>=array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/core.php" line="11" column="1" bodyfile="C:/xampp/htdocs/framework/sys/core.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1ae4901046cc3e1deebf77ccc785384a78" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$conf</definition>
+        <argsstring></argsstring>
+        <name>$conf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/core.php" line="12" column="1" bodyfile="C:/xampp/htdocs/framework/sys/core.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_core_1a9f0be6ae273d3669e11c29910a0be338" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/core.php" line="14" column="1" bodyfile="C:/xampp/htdocs/framework/sys/core.php" bodystart="14" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1a172c2b8bbed5f8e23ea32e08b665b59b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static router</definition>
+        <argsstring>()</argsstring>
+        <name>router</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/core.php" line="26" column="1" bodyfile="C:/xampp/htdocs/framework/sys/core.php" bodystart="26" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/sys/core.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/sys/core.php" bodystart="7" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_core_1aa698a3e72116e8e778be0e95d908ee30" prot="private" virt="non-virtual"><scope>Core</scope><name>$action</name></member>
+      <member refid="class_core_1ae4901046cc3e1deebf77ccc785384a78" prot="private" virt="non-virtual"><scope>Core</scope><name>$conf</name></member>
+      <member refid="class_core_1a388ef7b1db5e6f728e63cee704ce6e23" prot="private" virt="non-virtual"><scope>Core</scope><name>$controller</name></member>
+      <member refid="class_core_1afe68e6fbe7acfbffc0af0c84a1996466" prot="private" virt="non-virtual"><scope>Core</scope><name>$params</name></member>
+      <member refid="class_core_1a9f0be6ae273d3669e11c29910a0be338" prot="public" virt="non-virtual"><scope>Core</scope><name>init</name></member>
+      <member refid="class_core_1a172c2b8bbed5f8e23ea32e08b665b59b" prot="public" virt="non-virtual"><scope>Core</scope><name>router</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

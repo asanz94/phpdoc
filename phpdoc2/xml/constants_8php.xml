@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="constants_8php" kind="file" language="PHP">
+    <compoundname>constants.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="constants_8php_1ae073998f73900b8375397889044c8313" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DS</definition>
+        <argsstring></argsstring>
+        <name>DS</name>
+        <initializer>DIRECTORY_SEPARATOR</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/constants.php" line="14" column="1" bodyfile="C:/xampp/htdocs/framework/constants.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a18c0644836e196aed6d63779e14d6bd8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ROOT</definition>
+        <argsstring></argsstring>
+        <name>ROOT</name>
+        <initializer>realpath(dirname(__FILE__)).DS</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/constants.php" line="15" column="1" bodyfile="C:/xampp/htdocs/framework/constants.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a0209851fb6790e1be57a9edf2107c091" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const APP</definition>
+        <argsstring></argsstring>
+        <name>APP</name>
+        <initializer>ROOT.&apos;app&apos;.DS</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/constants.php" line="17" column="1" bodyfile="C:/xampp/htdocs/framework/constants.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1aba44f7d2f4078b9cb6bb51dcc121f414" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$app_w</definition>
+        <argsstring></argsstring>
+        <name>$app_w</name>
+        <initializer>=dirname($_SERVER[&apos;PHP_SELF&apos;]).DS</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/constants.php" line="18" column="1" bodyfile="C:/xampp/htdocs/framework/constants.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a1c000d3159a0f3eefd9732412d15a402" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const APP_W</definition>
+        <argsstring></argsstring>
+        <name>APP_W</name>
+        <initializer>base($app_w)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/constants.php" line="19" column="1" bodyfile="C:/xampp/htdocs/framework/constants.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="constants_8php_1a09763541667d8e51df70865805cc29ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>base</definition>
+        <argsstring>($str)</argsstring>
+        <name>base</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/constants.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/constants.php" bodystart="7" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>base($str){</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">($str==</highlight><highlight class="stringliteral">&apos;//&apos;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$str;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;DS&apos;</highlight><highlight class="normal">,DIRECTORY_SEPARATOR);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;ROOT&apos;</highlight><highlight class="normal">,realpath(dirname(__FILE__)).DS);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//to<sp/>access<sp/>filesystem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;APP&apos;</highlight><highlight class="normal">,ROOT.</highlight><highlight class="stringliteral">&apos;app&apos;</highlight><highlight class="normal">.DS);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>$app_w=dirname($_SERVER[</highlight><highlight class="stringliteral">&apos;PHP_SELF&apos;</highlight><highlight class="normal">]).DS;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>define<sp/>(</highlight><highlight class="stringliteral">&apos;APP_W&apos;</highlight><highlight class="normal">,base($app_w));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//echo<sp/>APP_W;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>it<sp/>could<sp/>be<sp/>in<sp/>another<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+    </programlisting>
+    <location file="C:/xampp/htdocs/framework/constants.php"/>
+  </compounddef>
+</doxygen>

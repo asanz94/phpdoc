@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_d_b" kind="class" language="PHP" prot="public">
+    <compoundname>DB</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PDO</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_d_b_1ac350be23da328a6f5429313efc9b96e4" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$_instance</definition>
+        <argsstring></argsstring>
+        <name>$_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/db.php" line="9" column="1" bodyfile="C:/xampp/htdocs/framework/sys/db.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_b_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/db.php" line="11" column="1" bodyfile="C:/xampp/htdocs/framework/sys/db.php" bodystart="11" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_b_1af527068985bac6010736b5959643eda7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static singleton</definition>
+        <argsstring>()</argsstring>
+        <name>singleton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/db.php" line="22" column="1" bodyfile="C:/xampp/htdocs/framework/sys/db.php" bodystart="22" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>DB</label>
+        <link refid="class_d_b"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>PDO</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>DB</label>
+        <link refid="class_d_b"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>PDO</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/sys/db.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/sys/db.php" bodystart="7" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_d_b_1ac350be23da328a6f5429313efc9b96e4" prot="public" virt="non-virtual"><scope>DB</scope><name>$_instance</name></member>
+      <member refid="class_d_b_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>DB</scope><name>__construct</name></member>
+      <member refid="class_d_b_1af527068985bac6010736b5959643eda7" prot="public" virt="non-virtual"><scope>DB</scope><name>singleton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

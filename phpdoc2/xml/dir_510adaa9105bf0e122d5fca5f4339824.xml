@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_510adaa9105bf0e122d5fca5f4339824" kind="dir">
+    <compoundname>C:/xampp/htdocs/framework/app/tpl</compoundname>
+    <innerfile refid="tpl_2contacta_8php">contacta.php</innerfile>
+    <innerfile refid="create_8php">create.php</innerfile>
+    <innerfile refid="tpl_2eliminar_8php">eliminar.php</innerfile>
+    <innerfile refid="tpl_2error_8php">error.php</innerfile>
+    <innerfile refid="footer_8php">footer.php</innerfile>
+    <innerfile refid="head_8php">head.php</innerfile>
+    <innerfile refid="header_8php">header.php</innerfile>
+    <innerfile refid="tpl_2home_8php">home.php</innerfile>
+    <innerfile refid="tpl_2insert_8php">insert.php</innerfile>
+    <innerfile refid="tpl_2install_8php">install.php</innerfile>
+    <innerfile refid="login2_8php">login2.php</innerfile>
+    <innerfile refid="menu_8php">menu.php</innerfile>
+    <innerfile refid="tpl_2modificar_8php">modificar.php</innerfile>
+    <innerfile refid="tpl_2modificarc_8php">modificarc.php</innerfile>
+    <innerfile refid="tpl_2reg_8php">reg.php</innerfile>
+    <innerfile refid="tpl_2regeliminar_8php">regeliminar.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/app/tpl/"/>
+  </compounddef>
+</doxygen>

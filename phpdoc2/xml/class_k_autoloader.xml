@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_k_autoloader" kind="class" language="PHP" prot="public">
+    <compoundname>KAutoloader</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_k_autoloader_1a9c03232b28f4306eb55e5ae48d9b5a57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static SysLoader</definition>
+        <argsstring>($class)</argsstring>
+        <name>SysLoader</name>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/helper.php" line="29" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_k_autoloader_1ae9c99c78ae285712998aab4fcc0777bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static AppContLoader</definition>
+        <argsstring>($class)</argsstring>
+        <name>AppContLoader</name>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/helper.php" line="38" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_k_autoloader_1aa1675c8b9b03dc3c377ddfdbfef11b84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static AppModLoader</definition>
+        <argsstring>($class)</argsstring>
+        <name>AppModLoader</name>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/helper.php" line="48" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="48" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_k_autoloader_1a6a413fe01a5949ed9048dd7f50132488" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static AppVieLoader</definition>
+        <argsstring>($class)</argsstring>
+        <name>AppVieLoader</name>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/helper.php" line="58" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="58" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/sys/helper.php" line="28" column="1" bodyfile="C:/xampp/htdocs/framework/sys/helper.php" bodystart="28" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_k_autoloader_1ae9c99c78ae285712998aab4fcc0777bc" prot="public" virt="non-virtual"><scope>KAutoloader</scope><name>AppContLoader</name></member>
+      <member refid="class_k_autoloader_1aa1675c8b9b03dc3c377ddfdbfef11b84" prot="public" virt="non-virtual"><scope>KAutoloader</scope><name>AppModLoader</name></member>
+      <member refid="class_k_autoloader_1a6a413fe01a5949ed9048dd7f50132488" prot="public" virt="non-virtual"><scope>KAutoloader</scope><name>AppVieLoader</name></member>
+      <member refid="class_k_autoloader_1a9c03232b28f4306eb55e5ae48d9b5a57" prot="public" virt="non-virtual"><scope>KAutoloader</scope><name>SysLoader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

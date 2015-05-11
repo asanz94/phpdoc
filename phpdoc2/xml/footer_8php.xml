@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="footer_8php" kind="file" language="PHP">
+    <compoundname>footer.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;footer&gt;&lt;h6&gt;Framework&lt;/h6&gt;&lt;h7&gt;by<sp/>Toni&lt;/h7&gt;&lt;br&gt;&lt;h7&gt;edited<sp/>by<sp/>Andreu&lt;/h7&gt;&lt;/footer&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;script&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">var<sp/>mapa=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>google.maps.Map(document.getElementById(</highlight><highlight class="stringliteral">&apos;mimapa&apos;</highlight><highlight class="normal">),{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">center:{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>lat:41.3037026,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>lng:<sp/>2.0033665</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>zoom:5</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//añadir<sp/>marcador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">var<sp/>marker=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>google.maps.Marker({</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>position:{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lat:41.3037026,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lng:<sp/>2.0033665</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>map:mapa,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>draggable:</highlight><highlight class="keyword">true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//buscar<sp/>direccion<sp/>y<sp/>colocarlo<sp/>en<sp/>el<sp/>mapa</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">var<sp/>searchBox=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>google.maps.places.SearchBox(document.getElementById(</highlight><highlight class="stringliteral">&apos;cajabusqueda&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//colocamos<sp/>el<sp/>cambio<sp/>de<sp/>evento<sp/>de<sp/>la<sp/>caja</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">google.maps.event.addListener(searchBox,</highlight><highlight class="stringliteral">&apos;places_changed&apos;</highlight><highlight class="normal">,</highlight><highlight class="keyword">function</highlight><highlight class="normal">(){</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>sitios=searchBox.getPlaces();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>bordes=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>google.maps.LatLngBounds();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>i,<sp/>place;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i=0;place=sitios[i];i++){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>bordes.extend(place.geometry.location);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>marker.setPosition(place.geometry.location);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>mapa.fitBounds(bordes);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>mapa.setZoom(20);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">&lt;/script&gt;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">&lt;/body&gt;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">&lt;/html&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/xampp/htdocs/framework/app/tpl/footer.php"/>
+  </compounddef>
+</doxygen>

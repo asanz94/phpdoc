@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_7aefce032f41b73447c56dde23708eca" kind="dir">
+    <compoundname>C:/xampp/htdocs/framework/app/controllers</compoundname>
+    <innerfile refid="controllers_2contacta_8php">contacta.php</innerfile>
+    <innerfile refid="controllers_2eliminar_8php">eliminar.php</innerfile>
+    <innerfile refid="controllers_2error_8php">error.php</innerfile>
+    <innerfile refid="controllers_2home_8php">home.php</innerfile>
+    <innerfile refid="controllers_2insert_8php">insert.php</innerfile>
+    <innerfile refid="controllers_2install_8php">install.php</innerfile>
+    <innerfile refid="login_8php">login.php</innerfile>
+    <innerfile refid="controllers_2modificar_8php">modificar.php</innerfile>
+    <innerfile refid="controllers_2modificarc_8php">modificarc.php</innerfile>
+    <innerfile refid="controllers_2reg_8php">reg.php</innerfile>
+    <innerfile refid="controllers_2regeliminar_8php">regeliminar.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/app/controllers/"/>
+  </compounddef>
+</doxygen>

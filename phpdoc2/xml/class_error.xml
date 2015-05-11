@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_error" kind="class" language="PHP" prot="public">
+    <compoundname>Error</compoundname>
+    <basecompoundref refid="class_controller" prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_error_1a05014738840640fff5d40cc0604cb5c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params=null)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/error.php" line="8" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/error.php" bodystart="8" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_error_1a174b8e4c7d4d7363c6f773671defdeff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>home</definition>
+        <argsstring>()</argsstring>
+        <name>home</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/error.php" line="15" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/error.php" bodystart="15" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>Error</label>
+        <link refid="class_error"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Controller</label>
+        <link refid="class_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>Error</label>
+        <link refid="class_error"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Controller</label>
+        <link refid="class_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/controllers/error.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/error.php" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_controller_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>Error</scope><name>$conf</name></member>
+      <member refid="class_controller_1a08fdd91bde255dbe3e2d15a22d9663e8" prot="protected" virt="non-virtual"><scope>Error</scope><name>$model</name></member>
+      <member refid="class_controller_1afe68e6fbe7acfbffc0af0c84a1996466" prot="protected" virt="non-virtual"><scope>Error</scope><name>$params</name></member>
+      <member refid="class_controller_1acccf2eac8663e0cebe8101e90fbab089" prot="protected" virt="non-virtual"><scope>Error</scope><name>$view</name></member>
+      <member refid="class_error_1a05014738840640fff5d40cc0604cb5c9" prot="public" virt="non-virtual"><scope>Error</scope><name>__construct</name></member>
+      <member refid="class_controller_1a185653cac2d8a82b6eb5aff50834e49d" prot="public" virt="non-virtual"><scope>Error</scope><name>ajax_set</name></member>
+      <member refid="class_error_1a174b8e4c7d4d7363c6f773671defdeff" prot="public" virt="non-virtual"><scope>Error</scope><name>home</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

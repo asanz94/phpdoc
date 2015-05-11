@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classhome" kind="class" language="PHP" prot="public">
+    <compoundname>home</compoundname>
+    <basecompoundref refid="class_controller" prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhome_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/home.php" line="10" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/home.php" bodystart="10" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classhome_1a174b8e4c7d4d7363c6f773671defdeff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>home</definition>
+        <argsstring>()</argsstring>
+        <name>home</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/home.php" line="16" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/home.php" bodystart="16" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classhome_1ae640d82759dd7439b2d6611c41f6478b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>salir</definition>
+        <argsstring>()</argsstring>
+        <name>salir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>esta funcion se encarga de destruir las variables de sesion y redirigir a la pagina home </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/controllers/home.php" line="58" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/home.php" bodystart="58" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>home</label>
+        <link refid="classhome"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>Controller</label>
+        <link refid="class_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>home</label>
+        <link refid="classhome"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Controller</label>
+        <link refid="class_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/controllers/home.php" line="8" column="1" bodyfile="C:/xampp/htdocs/framework/app/controllers/home.php" bodystart="8" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_controller_1ae4901046cc3e1deebf77ccc785384a78" prot="protected" virt="non-virtual"><scope>home</scope><name>$conf</name></member>
+      <member refid="class_controller_1a08fdd91bde255dbe3e2d15a22d9663e8" prot="protected" virt="non-virtual"><scope>home</scope><name>$model</name></member>
+      <member refid="class_controller_1afe68e6fbe7acfbffc0af0c84a1996466" prot="protected" virt="non-virtual"><scope>home</scope><name>$params</name></member>
+      <member refid="class_controller_1acccf2eac8663e0cebe8101e90fbab089" prot="protected" virt="non-virtual"><scope>home</scope><name>$view</name></member>
+      <member refid="classhome_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" virt="non-virtual"><scope>home</scope><name>__construct</name></member>
+      <member refid="class_controller_1a185653cac2d8a82b6eb5aff50834e49d" prot="public" virt="non-virtual"><scope>home</scope><name>ajax_set</name></member>
+      <member refid="classhome_1a174b8e4c7d4d7363c6f773671defdeff" prot="public" virt="non-virtual"><scope>home</scope><name>home</name></member>
+      <member refid="classhome_1ae640d82759dd7439b2d6611c41f6478b" prot="public" virt="non-virtual"><scope>home</scope><name>salir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classv_insert" kind="class" language="PHP" prot="public">
+    <compoundname>vInsert</compoundname>
+    <basecompoundref refid="class_view" prot="public" virt="non-virtual">View</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classv_insert_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/app/views/vinsert.php" line="8" column="1" bodyfile="C:/xampp/htdocs/framework/app/views/vinsert.php" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="189">
+        <label>View</label>
+        <link refid="class_view"/>
+      </node>
+      <node id="188">
+        <label>vInsert</label>
+        <link refid="classv_insert"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="191">
+        <label>View</label>
+        <link refid="class_view"/>
+      </node>
+      <node id="190">
+        <label>vInsert</label>
+        <link refid="classv_insert"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/xampp/htdocs/framework/app/views/vinsert.php" line="7" column="1" bodyfile="C:/xampp/htdocs/framework/app/views/vinsert.php" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_view_1ab17fbe2ab68dbf274177a2b974b4eb23" prot="protected" virt="non-virtual"><scope>vInsert</scope><name>$reg</name></member>
+      <member refid="classv_insert_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>vInsert</scope><name>__construct</name></member>
+      <member refid="class_view_1a0566cdd65c004851d2ba7fb0b0fc19f6" prot="public" virt="non-virtual" ambiguityscope="View::"><scope>vInsert</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

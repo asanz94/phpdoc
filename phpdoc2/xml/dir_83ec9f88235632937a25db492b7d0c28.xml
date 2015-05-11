@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_83ec9f88235632937a25db492b7d0c28" kind="dir">
+    <compoundname>C:/xampp/htdocs/framework/app/views</compoundname>
+    <innerfile refid="vcontacta_8php">vcontacta.php</innerfile>
+    <innerfile refid="vcreate_8php">vcreate.php</innerfile>
+    <innerfile refid="veliminar_8php">veliminar.php</innerfile>
+    <innerfile refid="verror_8php">verror.php</innerfile>
+    <innerfile refid="verrorcrear_8php">verrorcrear.php</innerfile>
+    <innerfile refid="verroreliminar_8php">verroreliminar.php</innerfile>
+    <innerfile refid="verrorlogin_8php">verrorlogin.php</innerfile>
+    <innerfile refid="verrormodificar_8php">verrormodificar.php</innerfile>
+    <innerfile refid="vhome_8php">vhome.php</innerfile>
+    <innerfile refid="vinsert_8php">vinsert.php</innerfile>
+    <innerfile refid="vinstall_8php">vinstall.php</innerfile>
+    <innerfile refid="vlogin_8php">vlogin.php</innerfile>
+    <innerfile refid="vmodificar_8php">vmodificar.php</innerfile>
+    <innerfile refid="vmodificarc_8php">vmodificarc.php</innerfile>
+    <innerfile refid="vreg_8php">vreg.php</innerfile>
+    <innerfile refid="vregeliminar_8php">vregeliminar.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/app/views/"/>
+  </compounddef>
+</doxygen>

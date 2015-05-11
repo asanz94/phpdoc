@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_request" kind="class" language="PHP" prot="public">
+    <compoundname>Request</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_request_1af59a5f7cd609e592c41dc3643efd3c98" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$query</definition>
+        <argsstring></argsstring>
+        <name>$query</name>
+        <initializer>=array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/request.php" line="11" column="1" bodyfile="C:/xampp/htdocs/framework/sys/request.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_request_1ad7c00fdbba951c6f593e1e81f83a9324" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static retrieve</definition>
+        <argsstring>()</argsstring>
+        <name>retrieve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/request.php" line="13" column="1" bodyfile="C:/xampp/htdocs/framework/sys/request.php" bodystart="13" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_request_1a757eb52465094807a57e1604193c3957" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getCont</definition>
+        <argsstring>()</argsstring>
+        <name>getCont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/request.php" line="35" column="1" bodyfile="C:/xampp/htdocs/framework/sys/request.php" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_request_1aa6d9c2b196225e95b4142166b936ef12" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getAct</definition>
+        <argsstring>()</argsstring>
+        <name>getAct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/request.php" line="39" column="1" bodyfile="C:/xampp/htdocs/framework/sys/request.php" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_request_1aff93c1546ca6a0a3a86cb21fab0ce5a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getParam</definition>
+        <argsstring>()</argsstring>
+        <name>getParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampp/htdocs/framework/sys/request.php" line="42" column="1" bodyfile="C:/xampp/htdocs/framework/sys/request.php" bodystart="42" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Andreu Sanz Miedes </para></simplesect>
+<simplesect kind="author"><para><ulink url="mailto:asanzm.sanz@gmail.com">asanzm.sanz@gmail.com</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>2015 M7 </para></simplesect>
+<simplesect kind="version"><para>1.0 class <ref refid="class_request" kindref="compound">Request</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/xampp/htdocs/framework/sys/request.php" line="10" column="1" bodyfile="C:/xampp/htdocs/framework/sys/request.php" bodystart="10" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_request_1af59a5f7cd609e592c41dc3643efd3c98" prot="private" virt="non-virtual"><scope>Request</scope><name>$query</name></member>
+      <member refid="class_request_1aa6d9c2b196225e95b4142166b936ef12" prot="public" virt="non-virtual"><scope>Request</scope><name>getAct</name></member>
+      <member refid="class_request_1a757eb52465094807a57e1604193c3957" prot="public" virt="non-virtual"><scope>Request</scope><name>getCont</name></member>
+      <member refid="class_request_1aff93c1546ca6a0a3a86cb21fab0ce5a5" prot="public" virt="non-virtual"><scope>Request</scope><name>getParam</name></member>
+      <member refid="class_request_1ad7c00fdbba951c6f593e1e81f83a9324" prot="public" virt="non-virtual"><scope>Request</scope><name>retrieve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

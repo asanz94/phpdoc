@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="head_8php" kind="file" language="PHP">
+    <compoundname>head.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;!DOCTYPE<sp/>html&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;html<sp/>lang=</highlight><highlight class="stringliteral">&quot;ca&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;head&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;meta<sp/>charset=</highlight><highlight class="stringliteral">&quot;utf-8&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;meta<sp/>http-equiv=</highlight><highlight class="stringliteral">&quot;X-UA-Compatible&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;IE=edge&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;title&gt;&lt;?=<sp/>$titol;?&gt;&lt;/title&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;meta<sp/>name=</highlight><highlight class="stringliteral">&quot;description&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;Template&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;meta<sp/>name=</highlight><highlight class="stringliteral">&quot;viewport&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;width=device-width,<sp/>initial-scale=1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;link<sp/>rel=</highlight><highlight class="stringliteral">&quot;stylesheet&quot;</highlight><highlight class="normal"><sp/><sp/>type=</highlight><highlight class="stringliteral">&quot;text/css&quot;</highlight><highlight class="normal"><sp/>href=</highlight><highlight class="stringliteral">&quot;&lt;?=<sp/>APP_W.&apos;pub/theme/k/css/app.css&apos;;<sp/>?&gt;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;link<sp/>href=</highlight><highlight class="stringliteral">&apos;http://fonts.googleapis.com/css?family=Roboto:100|Open+Sans&apos;</highlight><highlight class="normal"><sp/>rel=</highlight><highlight class="stringliteral">&apos;stylesheet&apos;</highlight><highlight class="normal"><sp/>type=</highlight><highlight class="stringliteral">&apos;text/css&apos;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;!--<sp/>Place<sp/>favicon.ico<sp/>and<sp/>apple-touch-icon.png<sp/>in<sp/>the<sp/>root<sp/>directory<sp/>--&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;http://maps.google.com/maps/api/js?sensor=false&amp;amp;language=en&amp;libraries=places&quot;</highlight><highlight class="normal">&gt;&lt;/script&gt;<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/head&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/xampp/htdocs/framework/app/tpl/head.php"/>
+  </compounddef>
+</doxygen>
